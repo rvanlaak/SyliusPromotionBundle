@@ -28,13 +28,13 @@
         "sylius/registry":                 "0.16.*",
         "sylius/money-bundle":             "0.16.*",
         "sylius/resource-bundle":          "0.16.*",
-        "symfony/framework-bundle":        "~2.3"
+        "symfony/framework-bundle":        "~2.3|^3.0"
     },
     "require-dev": {
         "phpspec/phpspec":   "~2.1",
-        "doctrine/orm":      "~2.2",
-        "symfony/form":      "~2.3",
-        "symfony/validator": "~2.3"
+        "doctrine/orm":      "~2.2|^2.5",
+        "symfony/form":      "~2.3|^3.0",
+        "symfony/validator": "~2.3|^3.0"
     },
     "config": {
         "bin-dir": "bin"
